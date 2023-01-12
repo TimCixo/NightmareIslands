@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &209726241084442269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209726241084442271}
+  - component: {fileID: 209726241084442270}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209726241084442271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209726241084442269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209726241084442270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209726241084442269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9214b59d7081444cad084932b40008c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _largeIslandCount: 0
+  _mediumIslandCount: 0
+  _smallIslandCount: 0
+  _chanceToSpawnIsland: 25
+  _largeIsland: {fileID: 6312881521856662760, guid: 43471466d240ff24cace33fb650d75bd, type: 3}
+  _smallIsland: {fileID: 7826537329083652963, guid: 190422aa0e78d1947bb06b364ffe9203, type: 3}
+  _mediumIsland: {fileID: 1627808190381854529, guid: 9c556266d6e9d824bacbfeebe7792b89, type: 3}
+  _startIsland: {fileID: 2401296892451400104, guid: 480f89f200b89b442a7fccbdb48c3704, type: 3}
+  _finalIsland: {fileID: 3049462115375232093, guid: 6b3954eeb34b8d944a14f335544c1d97, type: 3}
+  _bridge: {fileID: 5805698447214632673, guid: eaf3db303e0edbb44affac52f038c589, type: 3}
+  _player: {fileID: 4211758719027930581, guid: 8fc77cd08adf4174499e35f31760838e, type: 3}
