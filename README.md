@@ -1,5 +1,7 @@
 # Nightmare Islands
 
+<img src="https://github.com/user-attachments/assets/f4dc1a97-64bc-4d56-a467-a7db0411f51d" width="250px" align="right">
+
 **Nightmare Islands** is my first relatively adequate game project, created entirely by myself.  
 This game is developed in C# and represents my personal journey into game development.
 
